@@ -1,3 +1,31 @@
+/*
+Dispersive Flies Optimisation
+ 
+Copyright (C) 2014 Mohammad Majid al-Rifaie
+ 
+This is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License.
+ 
+For any query contact:
+m.alrifaie@gre.ac.uk
+ 
+School of Computing & Mathematical Sciences
+University of Greenwich, Old Royal Naval College, 
+Park Row, London SE10 9LS, U.K.
+ 
+Reference to origianl paper:
+Mohammad Majid al-Rifaie (2014), Dispersive Flies Optimisation, Proceedings of the 2014 Federated Conference on Computer Science and Information Systems, 535--544. IEEE.
+ 
+    @inproceedings{FedCSIS_2014,
+		author={Mohammad Majid al-Rifaie},
+		pages={535--544},
+		title={Dispersive Flies Optimisation},
+		booktitle={Proceedings of the 2014 Federated Conference on Computer Science and Information Systems},
+		year={2014},
+		editor={M. Ganzha, L. Maciaszek, M. Paprzycki},
+		publisher={IEEE}
+	}
+*/
+
 #include <iostream>
 #include <stdlib.h>
 #include <cmath>
