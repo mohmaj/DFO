@@ -3,3 +3,6 @@ Dispersive Flies Optimisation (DFO) is a minimalist component-stripped swarm opt
 
 ## Algorithm
 ![images](images/DFO.png)
+
+## Citation:
+	al-Rifaie, M. M. (2014). Dispersive flies optimisation. In 2014 Federated Conference on Computer Science and Information Systems (pp. 529-538). IEEE.
