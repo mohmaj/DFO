@@ -97,7 +97,7 @@ int main() {
 				
 				// OUT OF BOUND CONTROL
 				if (X[i][d] < lowerB[d] or X[i][d] > upperB[d])
-					X[i][d] = (upperB[d]-lowerB[d])*r()+lowerB[d];
+					X[i][d] = lowerB[d] + r()*(upperB[d]-lowerB[d]);
 			}
 		}
 	}
