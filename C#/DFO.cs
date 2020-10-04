@@ -31,7 +31,7 @@ public class Program
 			editor={M. Ganzha, L. Maciaszek, M. Paprzycki},
 			publisher={IEEE}
 		}
-
+		
 	Note: Code converted from C++ by Hooman Oroojeni, H.Oroojeni@gold.ac.uk
 	*/
 
@@ -110,10 +110,10 @@ public class Program
 				int left;
 				int right;
 				int bNeighbour;
-				left = (i - 1) % N;
+				left = (i - 1) % N; // INDEX OF LEFT FLY
 				if (left < 0) 
 					left= N - 1;
-				right = (i + 1) % N; // INDICES: LEFT & RIGHT FLIES
+				right = (i + 1) % N; // INDEX OF RIGHT FLY
 				if (fitness[right] < fitness[left])
 					bNeighbour = right;
 				else
@@ -133,7 +133,7 @@ public class Program
 
 					// OUT OF BOUND CONTROL
 					if (X[i][d] < lowerB[d] || X[i][d] > upperB[d])
-						X[i][d] = (upperB[d] - lowerB[d]) * r() + lowerB[d];
+						X[i][d] = lowerB[d] + r() * (upperB[d] - lowerB[d]);
 					
 				}
 			}
@@ -156,7 +156,7 @@ public class Program
 		for(int i=0; i<D; i++)  
 		{  
 		    Console.Write("{0}, ", X[s][i]);
-			//if ( i%2 != 0 ) Console.Write('\n');	
+			if ( i%2 != 0 ) Console.Write('\n');	
 	    }
 		Console.Write("]");
 		Console.Write("\n");
